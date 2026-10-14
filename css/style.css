@@ -187,3 +187,10 @@
 .toc ol { margin: 4px 0 0; padding-left: 1.3em; }
 .related { display: grid; gap: 8px; margin-top: 10px; }
 .footnav { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 8px; }
+.quick .two.three { grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+.quick .two.three a { font-size: 12.5px; padding: 9px 4px; }
+.quick .two.three a small { font-size: 10.5px; }
+.tbl3 { font-size: 12.5px; }
+.tbl3 th, .tbl3 td { padding: 7px 4px; }
+.tbl3 thead th { font-size: 12px; }
+.tbl3 tbody th { white-space: nowrap; width: 3em; }
